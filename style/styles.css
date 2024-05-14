@@ -26,7 +26,7 @@ body{
     font-family: 'Roboto-light';
     margin: 0;
     width: 100%;
-    height: 1000px;
+    height: 1500px;
     background-color: whitesmoke;
 }
 
@@ -54,11 +54,11 @@ header{
             font-family: 'Roboto-black';
             color: #F9FAF8;
             font-size: 24px;
-            margin-left:10% ;
+            margin-left:20% ;
         }
         .links{
-            width: 25%;
-            margin-right: 10%;
+            width: 27%;
+            margin-right: 20%;
             display: flex;
             justify-content: space-around;
         }
@@ -68,11 +68,12 @@ header{
 .hero{
     background-color: #1F2937 ;
     display: flex;
-    margin:5%;
-    width: 45%;
+    margin:10%;
+    width: 47%;
     height:80%;
+    gap:5%;
     .hero-text{
-        width: 50%;
+        width: 55%;
         height: 100%;
         #hero-text1{
             font-family: 'Roboto-black';
@@ -86,18 +87,19 @@ header{
             margin-bottom: 1%;
         }
         button{
+            margin-top: 5%;
             margin-left: 1%;
             text-size-adjust: auto;
             border: none;
             height: 12%;
             width: 20%;
             border-radius: 8px; 
+            display: block;
         }
     }
     .hero-img{
         display: flex;
-        background-color: green;
-        width: 50%;
+        min-width: 50%;
         height: 100%;
         justify-content: center;
         align-items: center;
@@ -113,6 +115,7 @@ main{
     width: 100%;
     height: 100%;
     flex-direction: column;
+    
 }
 
 
@@ -120,7 +123,7 @@ main{
 .grid-view{
     display: flex;
     flex-direction: column;
-    height: 65%;
+    height: 40%;
     width: 100%;
     align-items: center;
     .title{
@@ -139,7 +142,8 @@ main{
         flex-direction: row;
         width: 100%;
         height: 75%;
-        justify-content: space-evenly;
+        gap: 3%;
+        justify-content: center;
         .grid-section{
             width:8%;
             display: flex;
@@ -150,7 +154,8 @@ main{
             .grid-box{
                 width:100%;
                 height:50%;
-                border: 2px solid #000;;
+                border: 3px solid #3882F6;
+                border-radius: 10px;
             }
 
             .grid-text{
@@ -164,7 +169,7 @@ main{
 
 .quote{
     background-color: #E5E7EB;
-    height: 35%;
+    height: 40%;
     width: 100%;
     background-color: green;
 }
