@@ -26,13 +26,14 @@ body{
     font-family: 'Roboto-light';
     margin: 0;
     width: 100%;
-    height: 1500px;
+    height: 1800px;
     background-color: whitesmoke;
 }
 
 button{
     background-color: #3882F6;
     color:#F9FAF8;
+    border-radius: 8px;
 }
 
 header{
@@ -93,7 +94,7 @@ header{
             border: none;
             height: 12%;
             width: 20%;
-            border-radius: 8px; 
+            
             display: block;
         }
     }
@@ -123,7 +124,7 @@ main{
 .grid-view{
     display: flex;
     flex-direction: column;
-    height: 40%;
+    height: 60%;
     width: 100%;
     align-items: center;
     .title{
@@ -153,7 +154,7 @@ main{
             text-align: center;
             .grid-box{
                 width:100%;
-                height:50%;
+                height:40%;
                 border: 3px solid #3882F6;
                 border-radius: 10px;
             }
@@ -168,17 +169,75 @@ main{
 }
 
 .quote{
+    display: flex;
+    flex-direction: column;
     background-color: #E5E7EB;
     height: 40%;
     width: 100%;
-    background-color: green;
+    font-size: 36px;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    blockquote{
+        i{
+            font-size: 36px;
+            color:#1F2937 ;
+        }
+    }
+    p{
+        margin-left: 20%;
+        color:#1F2937 ;
+    }
+}
+
+.call-to-action{
+    margin-top: 5%;
+    margin-bottom: 5%;
+    display: flex;
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    align-items: center;
+    .container{
+        display: flex;
+        background-color: #3882F6;
+        width: 60%;
+        height: 100%;
+        border-radius: 15px;
+        align-items: center;
+        .call-to-action-one{
+            display: flex;
+            flex-grow: 1;
+            flex-direction: column;
+            justify-content:left;
+            align-items:flex-start;
+            margin-left: 8%;
+            #call1{
+                margin-bottom: 0;
+                font-size: 20px;
+            }
+        }
+        .call-to-action-two{
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            width: 50%;
+            button{
+                height: 25%;
+                width: 27%;
+                border: 2px solid #F9FAF8;
+            }
+        }
+    }
+
 }
 
 footer{
     display:flex;
     background-color: #1F2937 ;
     width: 100%;
-    height: 12.5%;
+    height: 5%;
 }
 
 @media screen and (max-width: 1500px) {
