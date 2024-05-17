@@ -40,7 +40,6 @@ header{
     display:flex;
     background-color: #1F2937 ;
     width: 100%;
-    height: 40%;
     flex-direction: column;
     align-items: center;
     nav{
@@ -66,12 +65,27 @@ header{
     }
 }
 
+
+
+
+main{
+    display:flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+
+.hero-container{
+    background-color: #1f2937;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
 .hero{
-    background-color: #1F2937 ;
     display: flex;
     margin:10%;
-    width: 47%;
-    height:80%;
     gap:5%;
     .hero-text{
         width: 55%;
@@ -109,17 +123,6 @@ header{
     }
 
 }
-
-
-main{
-    display:flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    
-}
-
-
 
 .grid-view{
     display: flex;
@@ -172,7 +175,7 @@ main{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    height: 40%;
+    height: 20%;
     width: 100%;
     font-size: 36px;
     justify-content: center;
@@ -255,7 +258,7 @@ footer{
 
 @media screen and (max-width: 1300px) {
     * {
-        font-size: 10px; 
+        font-size: 14px; 
     } 
         .hero{
             .hero-text{
@@ -271,10 +274,44 @@ footer{
 
 @media screen and (max-width: 1200px) {
     * {
-        font-size: 10px; 
+        font-size: 12px; 
     } 
     header{
         .hero{
+            .hero-text{
+                #hero-text1{
+                    font-size: 40px;
+                }
+               
+            }
+        }
+    }
+}
+@media screen and (max-width: 1000px) {
+    * {
+        font-size: 12px; 
+    } 
+    header{
+        .hero{
+            
+            .hero-text{
+                #hero-text1{
+                    font-size: 40px;
+                }
+               
+            }
+        }
+    }
+}
+@media screen and (max-width: 750px) {
+    * {
+        font-size: 12px; 
+    } 
+    header{
+        .hero{
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
             .hero-text{
                 #hero-text1{
                     font-size: 40px;
