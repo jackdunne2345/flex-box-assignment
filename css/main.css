@@ -1,0 +1,29 @@
+/* 
+    color 
+    Primary = #1F2937
+*/
+
+@font-face {
+    font-family: 'Roboto-black';
+    src: url(fonts/Roboto-Black.ttf);
+}
+@font-face {
+    font-family: 'Roboto-light';
+    src: url(fonts/Roboto-Light.ttf);
+}
+@font-face {
+    font-family: 'Roboto-medium';
+    src: url(fonts/Roboto-Medium.ttf);
+}
+@font-face{
+    font-family:'Roboto-thin';
+    src:url(fonts/Roboto-Thin.ttf);
+}
+
+*{
+    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto-light';
+}
