@@ -19,15 +19,14 @@
     font-size: 18px;
     color: #E5E7EB;
 }
-
 body{
     display: flex;
     flex-direction: column;
     font-family: 'Roboto-light';
     margin: 0;
     width: 100%;
-    height: 2000px;
     background-color: whitesmoke;
+    justify-content: center;
 }
 
 button{
@@ -36,54 +35,13 @@ button{
     border-radius: 8px;
 }
 
-header{
-    display:flex;
-    background-color: #1F2937 ;
-    width: 100%;
-    flex-direction: column;
-    align-items: center;
-    nav{
-        position:fixed;
-        background-color: #1F2937 ;
-        display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 8%;
-        justify-content: space-between;
-        .logo{
-            font-family: 'Roboto-black';
-            color: #F9FAF8;
-            font-size: 24px;
-            margin-left:20% ;
-        }
-        .links{
-            width: 27%;
-            margin-right: 20%;
-            display: flex;
-            justify-content: space-around;
-        }
-    }
-}
-
-main{
-    display:flex;
-    width: 100%;
-    height: 100%;
-    flex-direction: column;
-    align-items: center;
-}
-
-.hero-container{
-    background-color: #1f2937;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-
 .hero{
+    background-color: #1f2937;
     display: flex;
-    margin:10%;
+    padding-left: 10%;
     gap:5%;
+    justify-content: center;
+    align-items: center;
     .hero-text{
         width: 55%;
         height: 100%;
@@ -118,7 +76,6 @@ main{
         color: #E5E7EB;
         background-color: rgb(154, 177, 178);
         img {
-            
             min-width: 100%;
             max-height: 100%;
         }
@@ -128,63 +85,37 @@ main{
 }
 
 .grid-view{
-    display: flex;
-    flex-direction: column;
-    height: 60%;
-    width: 100%;
-    align-items: center;
+    overflow: hidden;
     .title{
-        display: flex;
-        align-items: center;
-        justify-content: center;
+        padding: 0;
         text-align: center;
         font-size: 48px;
         font-family: 'Roboto-black';
         color: #1f2937;
-        width: 100%;
-        height: 25%;
     }
-
     .grid{
         display: flex;
-        flex-direction: row;
-        width: 100%;
-        height: 75%;
-        gap: 3%;
         justify-content: center;
-        .grid-section{
-            
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            text-align: center;
-            .grid-box{
-                width:100%;
-                height:40%;
-                border: 3px solid #3882F6;
-                border-radius: 10px;
-                img{
-                    max-width: 100%;
-                    max-height: 100%;
-                }
-            }
-
-            .grid-text{
-                color: #1f2937;
-                width:100%;
-                height:20%;
-            }
+        align-items: center;
+        list-style-type: none;
+        gap: 2%;
+        text-align: center;
+        img{
+            border:2px solid #3882F6;
         }
-    } 
+        p{
+            color:#1F2937 ;
+        }
+    }
+    
 }
 
 .quote{
     display: flex;
     flex-direction: column;
     background-color: #E5E7EB;
-    height: 60%;
-    width: 100%;
+    padding: 5%;
+    height: 30%;
     font-size: 36px;
     justify-content: center;
     align-items: center;
@@ -205,7 +136,7 @@ main{
     margin-top: 5%;
     margin-bottom: 5%;
     display: flex;
-    width: 100%;
+    
     height: 20%;
     justify-content: center;
     align-items: center;
@@ -242,16 +173,6 @@ main{
         }
     }
 
-}
-
-footer{
-    display:flex;
-    background-color: #1F2937 ;
-    width: 100%;
-    height: 5%;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
 }
 
 @media screen and (max-width: 1500px) {
@@ -319,16 +240,6 @@ footer{
         font-size: 12px; 
     } 
     header{
-        .hero{
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            .hero-text{
-                #hero-text1{
-                    font-size: 40px;
-                }
-               
-            }
-        }
+      
     }
-}
+} 
