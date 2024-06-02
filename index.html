@@ -1,40 +1,51 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
+<head>
         <meta charset="UTF-8">
         <link rel="icon" type="image/x-icon" href="./images/kreative.ico">
         <meta name="keywords" content="">
         <meta name="description" content="Assigment 2">
-        <meta name="author" content="Jack,Sfwn">
+        <meta name="author" content="Jack,Safwan">
         <link rel="icon" type="image/x-icon" href="./images/mars.ico">
+        <!-- Font Awesome cdn link -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
         <!-- <link rel="stylesheet" href="./css/main.css"> -->
-        <link rel="stylesheet" href="./css/nabvbar.css">
-        <link rel ="stylesheet" href="./css/footer.css">
-        <link rel="stylesheet" href="./style/styles.css">
-        <title>Assigment 2</title>
-    </head>
-    <body>
-       <header class="header-container">
-        <nav class="nav">
-            <ul class="navbar">
-                <li class="nav-items">
-                    <a href="../index.html" class="nav-links">
-                        WebSite
-                    </a>
-                </li>
-                <li class="nav-items"> 
-                    <a href="../pages/about-us.html" class="nav-links">
-                        About Us
-                    </a>
-                </li>
-                <li class="nav-items">
-                    <a href="../pages/contacts.html" class="nav-links">
-                        Contact
-                    </a>
-                </li>
-            </ul>
-        </nav>
-       </header>
+        <link rel="stylesheet" href="./style/all-css.css">
+
+        <title>Kreactive Ecom | Home</title>
+</head>
+<body>
+        <header class="header">
+            <div class="header-container">
+                <!-- Logo -->
+                <div class="logo">
+                    <h1 class="logo-header">
+                        <a href="./index.html" class="logo-link">Header Logo</a>
+                    </h1>
+                </div>
+                <!-- Navbar -->
+                <nav class="nav">
+                    <ul class="navbar">
+                        <li class="nav-items">
+                            <a href="./index.html" class="nav-links">
+                                Home
+                            </a>
+                        </li>
+                        <li class="nav-items"> 
+                            <a href="./about-us.html" class="nav-links">
+                                About Us
+                            </a>
+                        </li>
+                        <li class="nav-items">
+                            <a href="./contacts.html" class="nav-links">
+                                Contact
+                            </a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
        <main>
             <section class="hero">
                 <div class="hero-text">
@@ -50,20 +61,22 @@
                     
                 </div>
                 <div class="hero-img">
-                    <!-- <img src="./images/hero-img.png" > -->
+                    <img src="./images/hero-img.png">
                 </div>
             </section>
+
             <section class="grid-view">
                 <p class="title">
                     See what we can make
                 </p>
                 <ul class="grid">
                     <li><img src="./images/landing1.png" alt="Image 1"> <p>Portfolio</p></li>
-                    <li><img src="./images/landing1.png" alt="Image 1"> <p>Blog</p></li>
-                    <li><img src="./images/landing1.png" alt="Image 1"> <p>E-Commerce</p></li>
-                    <li ><img src="./images/landing1.png" alt="Image 1"> <p>Personal</p></li>
+                    <li><img src="./images/landing2.png" alt="Image 1"> <p>Blog</p></li>
+                    <li><img src="./images/landing3.png" alt="Image 1"> <p>E-Commerce</p></li>
+                    <li ><img src="./images/landing4.png" alt="Image 1"> <p>Personal</p></li>
                 </ul>
             </section>
+            
             <section class="quote">
                 <blockquote cite="Bob the Builder">
                     <i>
@@ -72,9 +85,10 @@
                     
                 </blockquote>
                 <p>
-                    -Bob the Builder
+                    - Bob the Builder
                 </p>
             </section>
+            
             <section class="call-to-action">
                <div class="container">
                     <div class="call-to-action-one">
@@ -87,13 +101,14 @@
                </div>
             </section>
        </main>
-       <footer>
+
+       <footer class="footer">
             <p>
-                Created by Jack D Email: 
-                <a href="mailto:jack.dunne3@outlook.com"> 
+                Created by Jack D Email:
+                <a href="mailto:safwan@gail.com" class="footer-link"> 
                     jack.dunne3@outlook.com
                 </a>
-          </p>
-       </footer>
-    </body>
+            </p>
+    </footer>
+</body>
 </html>

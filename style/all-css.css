@@ -1,0 +1,16 @@
+/* initail */
+@import url(./css/main.css);
+/* Navbar */
+@import url(./css/nabvbar.css);
+@import url(./css/footer.css);
+/* Hero */
+@import url(./css/hero-section.css);
+/* Home */
+@import url(./css/home.css);
+/* Services Page */
+@import url(./css/vision-section.css);
+@import url(./css/mission-section.css);
+@import url(./css/people-section.css);
+/* Contact page */
+@import url(./css/location-section.css);
+@import url(./css/contact-form.css);

@@ -1,0 +1,118 @@
+#form {
+    width:100%; 
+    height:100%; 
+    margin: 0 auto; 
+    background: #E5E7EB; 
+}
+
+.form-container {
+    font-family: 'Roboto';
+    width: 90vw; 
+    height:auto; 
+    margin: 0 auto; 
+    padding-bottom: 2.5rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.form-header {
+    font-size: 3rem;
+    font-family: 'Roboto-black';
+    color: #1f2937;
+    width: 100%;
+    height: 25%;
+    padding: .5rem 1rem;
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-area{
+    width: 50%;
+    padding: 1.2rem .8rem;
+}
+
+.form-area form input,
+.form-area form textarea {
+	width: 100%;
+	height:30px;
+	padding:5px 10px;
+	font-size: 12px;
+	color:#999;
+	letter-spacing:1px;
+	background: #FFF;
+	border:2px solid #FFF;
+	margin-bottom:25px;
+	transition:all .1s ease-in-out;
+}
+
+.form-area form input:focus,
+.form-areaform textarea:focus {
+	border: 2px solid #1f2937;
+	color:#999;
+}
+
+.form-area form textarea {
+	height:150px;
+}
+
+.form-area form .submit {
+	width:100%;
+	padding:5px 8px;
+	font-size: 12px;
+	letter-spacing:1px;
+	background:#3882F6;
+	height: 40px;
+	text-transform:uppercase;
+	letter-spacing:1px;
+	color:#FFF;
+	border:2px solid #1f2937;
+	transition:all .1s ease-in-out;
+}
+
+.form-area form .submit:hover {
+	color:#FFF;
+	border:2px solid #3882F6;;
+	background: #1f2937;
+	cursor:pointer;
+}
+
+.form-area form .required {
+	color:#3882F6;
+    cursor: pointer;
+}
+
+.address-area {
+    width: 50%;
+    padding: .5rem .8rem;
+}
+
+.address-area .address p {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: .2rem;
+}
+
+.address-area .address p .icon {
+    padding-bottom: .2rem;
+    font-family: 'Roboto-black';
+    color: #1f2937;
+    font-size: 1.25rem;
+}
+
+.address-area .address p .text {
+    padding-bottom: .2rem;
+    font-family: 'Roboto';
+    font-size: 1rem;
+    color: #1f2937;
+}
+
+.address-area .map img{
+    border-radius: 5px;
+    width: 40vw;
+    height: 13vw;
+    box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),
+    0px 1px 3px 1px rgba(60, 64, 67, 0.15);
+}
