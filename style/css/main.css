@@ -15,9 +15,7 @@
     src:url(../../style/fonts//Roboto-Thin.ttf);
 }
 
-*,
-*::after,
-*::before {
+*{
     margin: 0;
     padding: 0;
     box-sizing: inherit; 
@@ -51,3 +49,16 @@ button{
 }
 
 
+@media screen and (max-width: 1200px) {
+    .secondary-header {
+        font-size: 2.5rem;
+        margin-bottom: .75rem;
+    } 
+}
+
+@media screen and (max-width: 800px) {
+    .secondary-header {
+        font-size: 2.25rem;
+        margin-bottom: .75rem;
+    }  
+}  

@@ -34,7 +34,11 @@
     align-items: center;
 }
 
-.nav i{
+.humb {
+    display: none;
+}
+
+.humb i{
     font-size: 2rem;
     color: #F9FAF8;
     position: absolute;
@@ -91,10 +95,11 @@
         width: 25%;
     }
 
-    .nav i{
-        visibility: visible;
+    .humb {
+        display: block;
     }
+    
     .navbar{
-       visibility: hidden;
+        display: none;
     }
 }  

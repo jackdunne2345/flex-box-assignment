@@ -116,3 +116,57 @@
     box-shadow: 0px 1px 2px 0px rgba(60, 64, 67, 0.3),
     0px 1px 3px 1px rgba(60, 64, 67, 0.15);
 }
+
+@media screen and (max-width: 1450px) {
+    .address-area .map img {
+        height: 17vw;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    .form-container {
+        padding-bottom: 1.5rem;
+    }
+
+    .form-header {
+        font-size: 2.5rem;
+        padding: .5rem 1rem;
+        margin-bottom: 0;
+    }    
+
+    .address-area .map img{
+        height: 22vw;
+    }
+
+    .address-area .address p .icon {
+        font-size: 1rem;
+    }
+    
+    .address-area .address p .text {
+        font-size: .85rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .form-container {
+        padding-bottom: 1rem;
+    }
+
+    .form-header {
+        font-size: 2rem;
+        padding: .5rem 1rem;
+        margin-bottom: 0;
+    }
+
+    .address-area .map img{
+        height: 27vw;
+    }
+
+    .address-area .address p .icon {
+        font-size: .85rem;
+    }
+    
+    .address-area .address p .text {
+        font-size: .75rem;
+    }
+}  

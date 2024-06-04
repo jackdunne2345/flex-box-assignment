@@ -105,3 +105,91 @@
     font-size: 1rem;
     color: #1f2937;
 }
+
+@media screen and (max-width: 1450px) {
+    .location-container .card {
+        width: 20vw;
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    .location-container {
+        padding: 40px 0;
+    }
+
+    .location-container .header-section h2{
+        font-size: 2.5rem;
+        padding-bottom: .4rem;
+    }
+
+    .location-container .header-section p{
+        font-size: .85rem;
+    }
+
+    .location-container .card {
+        margin: 1rem 1.5rem;
+    }
+
+    .location-container .card .card-header {
+        width: 3vw;
+        height: 3vw;
+        margin-bottom: .75rem;
+    }
+    
+    .location-container .card .card-header span i {
+        font-size: 1rem;
+    }
+
+    .location-container .card .card-body h4 {
+        font-size: 1rem;
+        padding-bottom: .3rem;
+    }
+    
+    .location-container .card .card-body p {
+        font-size: .85rem;
+        padding: .4rem 1.2rem;
+    }
+
+    .location-container .card .card-body p span {
+        font-size: .85rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .location-container {
+        padding: 30px 0;
+    }
+
+    .location-container .header-section h2{
+        font-size: 2rem;
+        padding-bottom: .4rem;
+    }
+
+    .location-container .header-section p{
+        font-size: .75rem;
+    }
+
+    .location-container .card {
+        margin: .5rem 1rem;
+    }  
+    
+    .location-container .card .card-header {
+        width: 4vw;
+        height: 4vw;
+        margin-bottom: .75rem;
+    }
+    
+    .location-container .card .card-header span i {
+        font-size: .85rem;
+    }
+
+    .location-container .card .card-body p {
+        font-size: .75rem;
+        padding: .4rem 1rem;
+    }
+
+    .location-container .card .card-body p span {
+        font-size: .75rem;
+    }
+}  

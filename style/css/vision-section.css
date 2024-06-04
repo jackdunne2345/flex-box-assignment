@@ -11,3 +11,15 @@
     margin: 0 auto; 
     padding: 50px 0;
 }
+
+@media screen and (max-width: 1200px) {
+    .vision-container { 
+        padding: 40px 0;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .vision-container {
+        padding: 35px 0;
+    }
+}  
