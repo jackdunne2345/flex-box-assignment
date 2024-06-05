@@ -43,7 +43,13 @@
 .location-container .contact-information{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: center;
+}
+
+.card-section{
+    display: flex;
+    justify-content: center;
     align-items: center;
 }
 
@@ -83,6 +89,7 @@
     justify-content: center;
     flex-direction: column;
 }
+
 
 .location-container .card .card-body h4 {
     font-family: 'Roboto-black';
@@ -197,3 +204,20 @@
         font-size: .75rem;
     }
 }  
+
+@media screen and (max-width:600px){
+    .location-container .contact-information{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+
+    }
+    .card-section{
+        display: flex;
+        font-size: 1px;
+    }
+    .card-body{
+        p{font-size: 1px;}
+    }
+}

@@ -4,6 +4,11 @@
     margin: 0 auto; 
     background: #E5E7EB; 
 }
+.people-row{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
 
 .vision-container {
     width: 90vw; 
@@ -34,5 +39,13 @@
 
     .vision-container .inner-contant {
         font-size: 0.75rem;
+    }
+}  
+
+@media screen and (max-width: 500px) {
+    .people-row{
+        display: flex;
+        justify-content: center;
+        gap: 60px;
     }
 }  
