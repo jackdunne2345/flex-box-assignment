@@ -16,16 +16,19 @@
     width: 100%;
 }
 
-.logo{
-    padding: 1.5rem 1.25rem;
-    font-size: 1.25rem;
+.logo {
+    padding: .5rem .875rem;
     width: 30%;
-    font-weight: bold;
 }
 
 .logo-link {
     text-decoration: none;
-    color: #F9FAF8;
+    cursor: pointer;
+}
+
+.logo-link img {
+    width: 13vw;
+    height: 8vh;
 }
 
 .nav {
@@ -73,9 +76,13 @@
 
 @media screen and (max-width: 1200px) {
     .logo{
-        padding: 1.25rem 1.15rem;
-        font-size: 1rem;
+        padding: .5rem .875rem;
         width: 25%;
+    }
+    
+    .logo-link img {
+        width: 11vw;
+        height: 8vh;
     }
 
     .navbar {
@@ -90,9 +97,13 @@
 
 @media screen and (max-width: 800px) {
     .logo{
-        padding: 1rem .75rem;
-        font-size: .75rem;
+        padding: .5rem .875rem;
         width: 25%;
+    }
+
+    .logo-link img {
+        width: 10vw;
+        height: 7vh;
     }
 
     .humb {
