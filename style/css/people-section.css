@@ -8,7 +8,7 @@
     float: left;
     width: 25%;
     margin-bottom: 1rem;
-    padding: 0 1.5rem;
+    padding: 0 1.15rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -41,19 +41,23 @@
   
 .card-container .card-header-text {
     font-family: 'Roboto-black';
+    font-size: 1.125rem;
     color: #1F2937;
     font-weight: bolder;
     padding-bottom: .2rem;
 }
 
 .card-container .card-title {
+    font-family: 'Roboto';
     color: grey;
+    font-size: 1rem;
     padding-bottom: .7rem;
 }
   
 .card-container .card-body__text {
     font-family: 'Roboto';
     font-weight: lighter;
+    font-size: 1rem;
     padding-bottom: .5rem;
     text-align: center;
     color: #1f2937;
@@ -61,15 +65,22 @@
 
 .card-container .card-footer__text {
     font-family: 'Roboto';
+    font-size: 1rem;
     padding-bottom: .5rem;
     color: #1f2937;
 }
 
+.card-container .card-footer__text  span{
+    font-family: 'Roboto-black';
+}
+
 .card-container .card-button {
+    font-family: 'Roboto';
     border: none;
     border-radius: 10px;
     outline: 0;
     display: inline-block;
+    font-size: 1rem;
     padding: 8px;
     color: white;
     background-color: #3882F6;
@@ -81,3 +92,74 @@
 .card-container .card-button:hover {
     background-color: #1f2937;
 }
+
+@media screen and (max-width: 1200px) {
+    .people-column {
+        margin-bottom: 1rem;
+        padding: 0 .75rem;
+    }
+
+    .card-container .card-header-text {
+        font-size: 1rem;
+    }
+
+    .card-container .card-title {
+
+        font-size: .875rem;
+    }
+    
+    .card-container .card-body__text {
+        font-size: .875rem;
+    }
+
+    .card-container .card-footer__text {
+        font-size: .875rem;
+    }
+
+    .card-container .card-button {
+        font-size: .875rem;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    .people-column {
+        margin-bottom: 1rem;
+        padding: 0 .75rem;
+    }
+
+    .people-card {
+        margin: 0px;
+        padding: 0rem .2rem;
+    }
+
+    .people-card img{
+        width: 11vw;
+        height: 13vh;
+        padding-bottom: .4rem;
+    }
+    
+    .card-container {
+        padding: 8px 12px;
+    }
+      
+    .card-container .card-header-text {
+        padding-bottom: .2rem;
+    }
+
+    .card-container .card-title {
+
+        font-size: .75rem;
+    }
+    
+    .card-container .card-body__text {
+        font-size: .75rem;
+    }
+
+    .card-container .card-footer__text {
+        font-size: .75rem;
+    }
+
+    .card-container .card-button {
+        font-size: .75rem;
+    }
+}  

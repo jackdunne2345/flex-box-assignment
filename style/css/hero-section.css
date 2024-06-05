@@ -131,14 +131,41 @@
 }
 
 
+@media screen and (max-width: 1400px) {
+    .contact-hero-background {
+        min-height: 50vh;
+    }
+    .header-text {
+        top: 35%;
+        left: 41%;
+        font-size: 2.5rem;
+    }
+}
+
 @media screen and (max-width: 1200px) {
+    .contact-hero-background {
+        min-height: 40vh;
+    }
+
     .header-text {
         font-size: 2.5rem;
     }
 }
 
 @media screen and (max-width: 800px) {
+    .contact-hero-background {
+        min-height: 30vh;
+    }
+
     .header-text {
+        top: 16%;
+        left: 37%;
         font-size: 2.25rem;
+    }
+}  
+
+@media screen and (max-width: 600px) {
+    .contact-hero-background {
+        min-height: 30vh;
     }
 }  

@@ -11,14 +11,27 @@
     padding: 50px 0;
 }
 
+.mission-container .inner-contant {
+    font-size: 1rem;
+    font-family: 'Roboto';
+}
+
 @media screen and (max-width: 1200px) {
     .mission-container { 
         padding: 40px 0;
+    }
+
+    .mission-container .inner-contant {
+        font-size: 0.875rem;
     }
 }
 
 @media screen and (max-width: 800px) {
     .mission-container {
         padding: 35px 0;
+    }
+
+    .mission-container .inner-contant {
+        font-size: 0.75rem;
     }
 }  

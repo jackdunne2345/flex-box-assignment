@@ -123,7 +123,7 @@
     }
 }
 
-@media screen and (min-width: 1200px) {
+@media screen and (max-width: 1200px) {
     .form-container {
         padding-bottom: 1.5rem;
     }

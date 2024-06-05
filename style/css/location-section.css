@@ -109,7 +109,7 @@
 @media screen and (max-width: 1450px) {
     .location-container .card {
         width: 20vw;
-        height: 33vh;
+        height: 27vh;
     }
 }
 
@@ -159,6 +159,10 @@
 @media screen and (max-width: 800px) {
     .location-container {
         padding: 30px 0;
+    }
+
+    .location-container .card {
+        height: 14vh;
     }
 
     .location-container .header-section h2{
