@@ -7,6 +7,7 @@ footer{
     justify-content: center;
     align-items: center;
     color: #F9FAF8;
+    font-size: 1.15rem;
 }
 
 .footer-link{
@@ -17,4 +18,24 @@ footer{
 
 .footer-link:hover {
     color: #3882F6;
+}
+
+@media screen and (max-width: 1400px) {
+    footer{
+        height: 8vh;
+        font-size: 1rem;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+    footer{
+        height: 6vh;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    footer{
+        height: 5vh;
+        font-size: .875rem;
+    }
 }

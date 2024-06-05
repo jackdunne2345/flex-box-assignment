@@ -1,32 +1,18 @@
-/* *{
-    font-size: 18px;
-    color: #E5E7EB;
-}
-
-body{
-    display: flex;
-    flex-direction: column;
-    font-family: 'Roboto-light';
-    margin: 0;
-    width: 100%;
-    background-color: whitesmoke;
-    justify-content: center;
-} */
-
-
 .grid-view{
     width: 100%;
     height: 100%;
     overflow: hidden;
     margin-bottom: 2rem;
+
     .title{
         margin: 2rem 3rem;
         padding: 0;
         text-align: center;
-        font-size: 48px;
+        font-size: 3rem;
         font-family: 'Roboto-black';
         color: #1f2937;
     }
+
     .grid{
         display: flex;
         justify-content: center;
@@ -34,14 +20,16 @@ body{
         list-style-type: none;
         gap: 2%;
         text-align: center;
+
         img{
-            /* border:2px solid #3882F6; */
             border-radius: 5px;
             box-shadow: rgba(56,130,246,1) 0px 1px 2px 0px, rgba(56,130,246,1) 0px 1px 3px 1px;
         }
+
         p{
             margin-top: .5rem;
             color:#1F2937 ;
+            font-size: 1.15rem;
         }
     }
     
@@ -53,13 +41,12 @@ body{
     background-color: #E5E7EB;
     padding: 5%;
     height: 30%;
-    font-size: 36px;
+    font-size: 2.25rem;
     justify-content: center;
     align-items: center;
-    font-size: 36px;
     blockquote{
         i{
-            font-size: 36px;
+            font-size: 2.25rem;
             color:#1F2937 ;
         }
     }
@@ -84,6 +71,7 @@ body{
         height: 20vh;
         border-radius: 15px;
         align-items: center;
+
         .call-to-action-one{
             display: flex;
             flex-grow: 1;
@@ -94,15 +82,17 @@ body{
             color: #E5E7EB;
             #call1{
                 margin-bottom: 0;
-                font-size: 20px;
+                font-size: 1.5rem;
             }
         }
+
         .call-to-action-two{
             height: 100%;
             display: flex;
             justify-content: center;
             align-items: center;
             width: 50%;
+
             button{
                 height: 25%;
                 width: 27%;
@@ -119,71 +109,147 @@ body{
 
 }
 
-/* @media screen and (max-width: 1500px) {
-    * {
-        font-size: 12px; 
-    }
-    .hero{
-        .hero-text{
-            #hero-text1{
-                font-size: 20px;
-            }
-        }
-    }
-}
+@media screen and (max-width: 1400px) {
+    .grid-view{
+        margin-bottom: 1.875rem;
+        gap: 1%;
 
-@media screen and (max-width: 1300px) {
-    * {
-        font-size: 14px; 
-    } 
-        .hero{
-            .hero-text{
-                #hero-text1{
-                    font-size: 20px;
+        .title{
+            margin: 1.875rem 2.875rem;
+            font-size: 3rem;
+            
+        }
+
+        .grid{
+            img{
+                width: 20vw;
+                height: 22vh;
+            }
+            p{
+                margin-top: .4rem;
+                font-size: 1rem;
+            }
+        }
+    }
+
+    .quote{
+        font-size: 2.15rem;
+        blockquote{
+            i{
+                font-size: 2.15rem;  
+            }
+        }
+    }
+
+    .call-to-action{
+        .container{
+            height: 14vh;
+            .call-to-action-one{
+                #call1{
+                    font-size: 1.25rem;
                 }
+            }
+            .call-to-action-two{
                 button{
-                    font-size: 10px;
+                    font-size: 1.15rem; 
                 }
             }
         }
+    }
 }
 
 @media screen and (max-width: 1200px) {
-    * {
-        font-size: 12px; 
-    } 
-    header{
-        .hero{
-            .hero-text{
-                #hero-text1{
-                    font-size: 40px;
+    .grid-view{
+        margin-bottom: 1.875rem;
+        gap: 1%;
+
+        .title{
+            margin: 1.75rem 2.75rem;
+            font-size: 2.25rem;
+        }
+        .grid{
+            img{
+                width: 22vw;
+                height: 24vh;
+            }
+            p{
+                margin-top: .3rem;
+                font-size: 1rem;
+            }
+        } 
+    }
+
+    .quote{
+        font-size: 2rem;
+        blockquote{
+            i{
+                font-size: 2rem;  
+            }
+        }
+    }
+
+    .call-to-action{
+        .container{
+            height: 12vh;
+            .call-to-action-one{
+                #call1{
+                    font-size: 1.25rem;
                 }
-               
+            }
+            .call-to-action-two{
+                button{
+                    height: 22%;
+                    width: 33%;
+                    font-size: 1.15rem;
+                }
             }
         }
     }
 }
-@media screen and (max-width: 1000px) {
-    * {
-        font-size: 12px; 
-    } 
-    header{
-        .hero{
-            
-            .hero-text{
-                #hero-text1{
-                    font-size: 40px;
+
+@media screen and (max-width: 800px) {
+    .grid-view {
+        margin-bottom: 1.875rem;
+        gap: 1%;
+
+        .title{
+            margin: 1.5rem 2.5rem;
+            font-size: 2rem;
+        }
+        .grid{
+            img{
+                width: 18vw;
+                height: 20vh;
+            }
+            p{
+                margin-top: .3rem;
+                font-size: .875rem;
+            }
+        } 
+    }
+
+    .quote{
+        font-size: 1.875rem;
+        blockquote{
+            i{
+                font-size: 1.875rem;  
+            }
+        }
+    }
+
+    .call-to-action {
+        .container{
+            height: 10vh;
+            .call-to-action-one{
+                #call1{
+                    font-size: 1rem;
                 }
-               
+            }
+            .call-to-action-two{
+                button{
+                    font-size: 1rem;
+                }
             }
         }
     }
 }
-@media screen and (max-width: 750px) {
-    * {
-        font-size: 12px; 
-    } 
-    header{
-      
-    }
-}  */
