@@ -152,6 +152,7 @@
             .call-to-action-two{
                 button{
                     font-size: 1.15rem; 
+
                 }
             }
         }
@@ -198,7 +199,7 @@
             }
             .call-to-action-two{
                 button{
-                    height: 22%;
+                    height: 50%;
                     width: 33%;
                     font-size: 1.15rem;
                 }
@@ -247,6 +248,8 @@
             }
             .call-to-action-two{
                 button{
+                    width: 60%;
+                    height: 50%;
                     font-size: 1rem;
                 }
             }
